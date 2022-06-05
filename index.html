@@ -1,195 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- main container -->
-    <div class="wrapper">
-        <aside class="sidebar">
-            <img class="myPhoto" src="./assets/avatar.png" alt="My photo">
-            <!-- contacts container -->
-            <div class="contactsContainer">
-                <h3 class="contactsTitle">Contacts</h3>
-                <div>
-                    <span class="contactsLinkType">C:</span> <a class="contactsLink" href="tel:380951138598">+38 097 609 61 39</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+        <div class="resume">
+          <div class="container">
+            <div class="resume__block">
+              <h1 class="contact-info__header">Bulka</h1>
+              <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
+      
+              <div class="contact_info_container fh">
+                <div class="contact-info__block">
+                    <a href="" rel="author" class="contact-info__item">
+                        <div class="contact-info__item-icon-wrapper">
+                        <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path
+                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                            </path>
+                        </svg>
+                        </div>
+                        <span>Lviv, Ukraine</span>
+                    </a>
+                    
                 </div>
-                <div>
-                    <span class="contactsLinkType">E:</span> <a class="contactsLink" href="mailto:drsckarasu@gmail.com">drsckarasu@gmail.com</a>
+                <div class="contact-info__block contact-info__block--center">
+                  <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
                 </div>
-            </div>
-            <!-- tech skills container -->
-            <div class="techSkillsContainer">
-                <h3 class="techSkillsTitle">Tech Skills</h3>
-                <ul>
-                    <li class="techSkillsItem">
-                        <span class="techSkillsText">HTML5</span>
-                    </li>
-                    <li class="techSkillsItem">
-                        <span class="techSkillsText">CSS3</span>
-                    </li>
-                    <li class="techSkillsItem">
-                        <span class="techSkillsText">GIT</span>
-                    </li>
-                    <li class="techSkillsItem">
-                        <span class="techSkillsText">JavaScript</span>
-                    </li>
-                    <li class="techSkillsItem">
-                        <span class="techSkillsText">jQuery</span>
-                    </li>
-                    <li class="techSkillsItem">
-                        <span class="techSkillsText">React.js</span>
-                    </li>
-                </ul>
-            </div>
-            <!-- soft skills container -->
-            <div  class="softSkillsContainer">
-                <h3 class="softSkillsTitle">Soft Skills</h3>
-                <ul>
-                    <li class="softSkillsItem">
-                        <span class="softSkillsText">Scrum</span>
-                    </li>
-                    <li class="softSkillsItem">
-                        <span class="softSkillsText">Agile</span>
-                    </li>
-                    <li class="softSkillsItem">
-                        <span class="softSkillsText">Teamwork</span>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-        <!-- about me container -->
-        <div class="aboutMeContainer">
-            <!-- about me main info -->
-            <div class="infoContainer">
-                <h2 class="profession">Front-End Developer</h2>
-                <h1 class="name">Roman Basaraba</h1>
-                <p class="description">Good problem-solver with strong analytical skills and the ability to move easily between varied tasks. Have eperience creating responsive layouts with HTML, CSS, and Bootstrap and teamwork experience of developing React app. Understanding of SDLC and test processes and different testing types. Knowledge on working with project management tools (Jira, Trello)</p>
-            </div>
-
-            <!-- project container -->
-            <div class="projectContainer">
-                <h3 class="aboutMeTitile">Projects</h3>
-                <ol class="projectExamples">
-                    <li class="projectItem">
-                        <a class="projectsLink" href="https://drsckarasu.github.io/beetrootAcademy/projects/project01/index.html" target="_blank">Automobiles site</a>
-                        <span class="dots">.....................................................</span>
-                        <span><b>[</b> <span class="techName">HTML5, CSS3</span> <b>]</b></span>
-                    </li>
-                    <li class="projectItem">
-                        <a class="projectsLink" href="https://drsckarasu.github.io/Rock-Scissor-Paper-Game/" target="_blank">Rock Paper Scissor Game</a>
-                        <span class="dots">...................................</span>
-                        <span><b>[</b> <span class="techName">JavaScript</span> <b>]</b></span>
-                    </li>
-                    <li class="projectItem">
-                        <a class="projectsLink" href="https://drsckarasu.github.io/Calculator-jQuery/" target="_blank">Calculator</a>
-                        <span class="dots">...................................................................</span>
-                        <span><b>[</b> <span class="techName">jQuery</span> <b>]</b></span>
-                    </li>
-                    <li class="projectItem">
-                        <a class="projectsLink" href="https://drsckarasu.github.io/Rick-Morty-Watchlist/" target="_blank">Rick and Morty Watchlist</a>
-                        <span class="dots">....................................</span>
-                        <span><b>[</b> <span class="techName">React.js</span> <b>]</b></span>
-                    </li>
-                </ol>
-            </div>
-            <!-- work experience -->
-            <div class="professionContainer">
-                <h3 class="aboutMeTitile">Work Experience</h3>
-                <!-- company 1 -->
-                <div>
-                    <h4 class="professionTitle">Sales Representative <span class="professionCompany">Freelance</span></h4>
-                    <span class="professionTime">
-                        November 2019 - up to now <span class="professionDivider">|</span> Ukraine
-                    </span>
-                    <ul class="professionDuties">
-                        <li class="professionDutiesItem">
-                            Provided qualitative and quantitative distribution of products
-                        </li>
-                        <li class="professionDutiesItem">
-                            Negotiate with customers on the terms of sale and provision of related services
-                        </li>
-                        <li class="professionDutiesItem">
-                            Developed daily, monthly, annual work plans
-                        </li>
-                        <li class="professionDutiesItem">
-                            Constantly worked to improve my educational and professional level
-                        </li>
-                        <li class="professionDutiesItem">
-                            Showed initiative and mobilized myself to perform the tasks
-                        </li>
-                    </ul>
+      
+                <div class="contact-info__block">
+                    <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author" class="contact-info__item">
+                        <div class="contact-info__item-icon-wrapper">
+                          <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                            </path>
+                          </svg>
+                        </div>
+                        <span>binary-studio</span>
+                      </a>
                 </div>
-                <!-- company 2 -->
-                <div>
-                    <h4 class="professionTitle">Sales Representative <span class="professionCompany">LLC "FIRMA ANIDA LTD"</span></h4>
-                    <span class="professionTime">
-                        June 2015 - November 2019 <span class="professionDivider">|</span> Ukraine
-                    </span>
-                    <ul class="professionDuties">
-                        <li class="professionDutiesItem">
-                            Provided qualitative and quantitative distribution of products
-                        </li>
-                        <li class="professionDutiesItem">
-                            Negotiate with customers on the terms of sale and provision of related services
-                        </li>
-                        <li class="professionDutiesItem">
-                            Developed daily, monthly, annual work plans
-                        </li>
-                        <li class="professionDutiesItem">
-                            Constantly worked to improve my educational and professional level
-                        </li>
-                        <li class="professionDutiesItem">
-                            Showed initiative and mobilized myself to perform the tasks
-                        </li>
-                    </ul>
-                </div>
-                <!-- company 3 -->
-                <div>
-                    <h4 class="professionTitle">Engineer <span class="professionCompany">Ternopil Regional Municipal Institute of Postgraduate Pedagogical Education</span></h4>
-                    <span class="professionTime">
-                        March 2011 - June 2015 <span class="professionDivider">|</span> Ukraine
-                    </span>
-                    <ul class="professionDuties">
-                        <li class="professionDutiesItem">
-                            Local website administration
-                        </li>
-                        <li class="professionDutiesItem">
-                            Laying and setting up networks
-                        </li>
-                        <li class="professionDutiesItem">
-                            Support for the working condition of computers
-                        </li>
-                        <li class="professionDutiesItem">
-                            Maintenance of operating systems
-                        </li>
-                    </ul>
-                </div>
+              </div>
             </div>
-            <!-- education -->
-            <div>
-                <h3 class="aboutMeTitile">Education</h3>
-                <!-- school 1 -->
-                <div>
-                    <h4 class="universityTitle">Ternopil National Economic University</h4>
-                    <h5 class="specializationTitle">Accounting and auditing</h5>
-                    <span class="educationTime">
-                        Septermber 2011 - June 2013 <span class="educationDivider">|</span> Ukraine
-                    </span>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="intro">
+                <div class="intro__icon-wrapper">
+                  <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                      d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                    </path>
+                  </svg>
                 </div>
-                <!-- school 2 -->
-                <div>
-                    <h4 class="universityTitle">Ternopil Ivan Pului National Technical University</h4>
-                    <h5 class="specializationTitle">Automation and Computer-intagreted Technologies</h5>
-                    <span class="educationTime">
-                        Septermber 2005 - June 2010 <span class="educationDivider">|</span> Ukraine
-                    </span>
-                </div>
+                <p class="intro_text">Meow.
+                  I am a Binary Studio cat. Still got 7 lives. Work in IT, Full Stack Evil, 
+                  all I do is sleep and try to help out hoomans with their projects whenever 
+                  they need me.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="skills">
+                <h3 class="skills__header">Skills</h3>
+                <p class="skills__text">Sleep, eat, more sleep, meow, mrrr, purr. </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="main-info fh">
+          
+                <div class="experiences">
+                    <h3 class="experiences__header">Experience</h3>
+                    <div class="experiences__company">
+                      <div class="experiences__company-header">
+                        <span class="experiences__company-header-durability">For whole my life</span>
+                        <h3 class="experiences__company-header-name">BinaryStudio</h3>
+                      </div>
+                  
+                      <div class="experiences__company-project">
+                        <span class="experiences__company-project-role">Binary Studio Cat</span>
+                        <h3 class="experiences__company-project-name">Hooman project</h3>
+                        <ul class="experiences__company-project-responsibilities">
+                          <li>Supported hoomans</li>
+                          <li>Slept all the time</li>
+                          <li>Lied on the keyboard</li>
+                          <li>Watched my hoomans working</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="additional-info fv">
+                    <div class="additional-info__education">
+                        <h3 class="additional-info__education-header">Education</h3>
+                        <div class="additional-info__education-university">
+                          <span class="additional-info__education-university-durability">2021</span>
+                          <h3 class="additional-info__education-university-speciality">Cat track</h3>
+                          <p class="additional-info__education-university-name">Binary Studio Academy</p>
+                        </div>
+                      </div>
+                    
+                      <div class="additional-info__languages">
+                        <h3 class="additional-info__languages-header">Languages</h3>
+                        <p class="additional-info__languages-item">
+                          Meow dialect
+                        </p>
+                        <p class="additional-info__languages-item">
+                          Ukrainian (understand)
+                        </p>
+                        <p class="additional-info__languages-item">
+                          English (don't understand)
+                        </p>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</body>
+      </main>
+  </body>
 </html>
